@@ -1,0 +1,56 @@
+# Environment
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# Static files
+staticfiles/
+media/
+logs/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Git
+.git
+.gitignore
+.github/
+
+# Documentation
+README.md
+LICENSE
+*.md
+!LOCAL_PRODUCTION_SETUP.md
+!DOCKER_SETUP.md
+
+# Development tools
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db 
